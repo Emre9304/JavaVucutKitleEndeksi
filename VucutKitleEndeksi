@@ -1,0 +1,15 @@
+package giris;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int kilo;
+        double boy;
+        System.out.println("Kilonuzu giriniz: ");
+        kilo = input.nextInt();
+        System.out.println("Boyunuzu giriniz: ");
+        boy = input.nextDouble();
+        double vucutKitleEndeksi = kilo / (boy * boy);
+        System.out.println(vucutKitleEndeksi);
+    }
+}
